@@ -45,6 +45,8 @@ body {
     margin-bottom: 2%;
 }
 
+
+
 .semesters div {
     width: 40%;
 }
@@ -53,4 +55,43 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px){
+    .content-page {
+        border: solid 1px rgb(49, 108, 244);
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .semesters {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 98%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .semesters div {
+        width: 95%;
+        margin-bottom: 5%;
+    }
+
+    .content-page img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .about-pic {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
