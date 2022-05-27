@@ -1,0 +1,56 @@
+body {
+    background-color: aliceblue;
+}
+
+.head {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.head h1 {
+    margin-bottom: 3%;
+}
+
+.content-page-inactive {
+    display: none;
+}
+
+.content-page {
+    border: solid 1px rgb(49, 108, 244);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-page span {
+    margin: 2%;
+}
+
+.content-page img {
+    border-radius: 10px;
+}
+
+
+.semesters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 98%;
+    margin-bottom: 2%;
+}
+
+.semesters div {
+    width: 40%;
+}
+
+.about-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
